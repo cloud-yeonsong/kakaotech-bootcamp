@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 인사 / 아스키아트
         System.out.println("       {");
         System.out.println("    {   }");
         System.out.println("     }_{ __{");
@@ -229,7 +228,6 @@ public class Main {
                 }
             }
 
-            // 주문이 만들어졌을 때만 카운트다운
             if (ordered) {
                 System.out.println("음료를 만들고 있어요...");
                 Thread checkThread = new Thread(new Runnable() {
